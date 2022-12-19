@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="slide-container">
+
+        <div class="slide">
+            <img src="images/ff.jpg" alt="img1"/>
+            <div class="caption">Image 1</div>
+        </div>
+
+        <div class="slide">
+            <img src="images/g1.jpg" alt="img1"/>
+            <div class="caption">Image 2</div>
+        </div>
+
+        <div class="slide">
+             <img src="images/g2.jpg" alt="img1"/>
+             <div class="caption">Image 3</div>
+        </div>
+
+        <div class="slide">
+             <img src="images/g3.jpg" alt="img1"/>
+             <div class="caption">Image 4</div>
+        </div>
+
+         <div class="slide">
+             <img src="images/g4.jpg" alt="img1"/>
+             <div class="caption">Image 5</div>
+        </div>
+
+        <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+        <span class="arrow next" onclick="controller(1)">&#10095</span>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
